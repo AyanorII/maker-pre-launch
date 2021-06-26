@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Maker pre-launch landing page</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="header__logo" src="assets/logo.svg" alt="">
+  </header>
+  
+  <main class="hero">
+    <img class="hero__img hero__img--left" src="assets/illustration-hero-left.svg" alt="">
+    <img class="hero__img hero__img--right" src="assets/illustration-hero-right.svg" alt="">
+    <h1 class="hero__heading">Get paid for the work you <span class="hero__span">love</span> to do.</h1>
+    <p class="hero__paragraph">
+      The 9-5 grind is so last century. We believe in living life on your
+      own terms. Whether you’re looking to escape the rat race or set up
+      a side hustle, we’ve got you covered.
+    </p>
+    <img class="hero__icon" src="assets/icon-scroll.svg" alt="">
+  </main>
+
+  <section class="cards">
+    <div class="card">
+      <img class="card__img" src="assets/illustration-passions.svg" alt="">
+      <h3 class="card__heading">Indulge your passions</h2>
+        <p class="card__paragraph">Your passions shouldn't be just for the weekend. Earn a living doing what you love.
+        </p>
+    </div>
+
+    <div class="card">
+      <img class="card__img" src="assets/illustration-financial-freedom.svg" alt="">
+      <h3 class="card__heading">Gain financial freedom</h2>
+        <p class="card__paragraph">Start making money work for you. There’s nothing quite like earning while you sleep.
+        </p>
+    </div>
+
+    <div class="card">
+      <img class="card__img" src="assets/illustration-lifestyle.svg" alt="">
+      <h3 class="card__heading">Choose your lifestyle</h2>
+        <p class="card__paragraph">Own your daily schedule. Fancy a lie-in? Go for it! Take charge of your week.</p>
+    </div>
+
+    <div class="card">
+      <img class="card__img" src="assets/illustration-work-anywhere.svg" alt="">
+      <h3 class="card__heading">Work from anywhere</h2>
+        <p class="card__paragraph">Selling online means not being pinned down. Want to work AND travel? Go for it!</p>
+    </div>
+  </section>
+
+  <section class="pricing">
+    <div class="pricing__content">
+      <h2 class="pricing__heading">Our pricing plans</h2>
+      <p class="pricing__paragraph">
+        We only make money when our creators make money. Our plans are always affordable, and
+        it’s completely free to get started.
+      </p>
+    </div>
+
+    <div class="pricing__card pricing__card--free">
+      <img class="pricing__card__icon" src="assets/icon-free.svg" alt="">
+      <h4 class="pricing__card__heading">Dip your toe</h4>
+      <p class="pricing__card__paragraph">
+        Just getting started? No problem at all! Our free plan will take you a long way.
+      </p>
+      <h3 class="pricing__card__price">Free</h3>
+      <ul class="pricing__card__list">
+        <li class="list-item">Unlimited products</li>
+        <li class="list-item">Basic analytics</li>
+        <li class="list-item">Limited marketplace exposure</li>
+        <li class="list-item">10% fee per transaction</li>
+      </ul>
+    </div>
+
+    <div class="pricing__card pricing__card--paid">
+      <img class="pricing__card__icon" src="assets/icon-paid.svg" alt="">
+      <h4 class="pricing__card__heading">Dive right in</h4>
+      <p class="pricing__card__paragraph">
+        Ready for the big time? Our paid plan will help you take your business to the next level.
+      </p>
+      <h3 class="pricing__card__price">$25.00 <span>/ month</span></h3>
+      <ul class="pricing__card__list">
+        <li class="list-item">Custom domain</li>
+        <li class="list-item">Advanced analytics and reports</li>
+        <li class="list-item">High marketplace visibility</li>
+        <li class="list-item">5% fee per transaction</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h2 class="footer__heading">Get notified when we launch</h2>
+    <form class="get-notified" action="" onsubmit="return validateForm()">
+      <input type="email" name="email" id="email" placeholder="Email address">
+      <span>Oops! That doesn't look like an email address</span>
+      <button class="get-notified__btn" type="submit">Get notified</button>
+    </form>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
